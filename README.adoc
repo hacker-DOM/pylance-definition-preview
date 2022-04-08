@@ -1,0 +1,11 @@
+
+
+xref:src/g.py[g.py] contains a few imports.
+
+Commenting out all other variants and <<Running>> the code, all four variants yield the same result (`Hi there!` is printed).
+
+However, triggering editor.action.showDefinitionPreviewHover on `f` works only in the first two variants.
+
+## Running
+
+`python3 -m src.g`
